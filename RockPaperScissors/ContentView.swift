@@ -97,7 +97,7 @@ struct ContentView: View {
             }
         }
         
-        caseOption = Bool.random()
+        caseOption.toggle()
         imageOption = Int.random(in: 0...2)
         gameOptions = gameOptions.shuffled()
         randomColor = Color.random
